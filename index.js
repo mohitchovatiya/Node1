@@ -5,7 +5,7 @@ var router=require('./route');
 
 var app=express();
 app.use('/api',router);
-app.listen(process.env.port,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server started");
 })
 
